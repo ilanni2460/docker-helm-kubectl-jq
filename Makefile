@@ -1,6 +1,6 @@
 default: docker_build
 
-DOCKER_IMAGE ?= bskim45/helm-kubectl-jq
+DOCKER_IMAGE ?= ilanni2460/helm-kubectl-jq
 DOCKER_TAG ?= `git rev-parse --abbrev-ref HEAD`
 
 docker_build:
