@@ -12,10 +12,10 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 
 # Note: Latest version of kubectl may be found at:
 # https://github.com/kubernetes/kubernetes/releases
-ENV KUBE_LATEST_VERSION="v1.19.4"
+ENV KUBE_LATEST_VERSION="v1.27.3"
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="v3.3.4"
+ENV HELM_VERSION="v3.12.1"
 
 RUN set -xe \
     &&  echo "https://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
